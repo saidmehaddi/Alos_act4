@@ -1,0 +1,9 @@
+{
+    "presets": ["@babel/preset-env"],
+    // add support for async/await
+    "plugins": [
+        ["@babel/transform-runtime", {
+            "regenerator": true
+        }]
+    ]
+}
